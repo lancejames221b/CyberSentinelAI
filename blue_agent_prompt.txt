@@ -1,0 +1,32 @@
+BLUE TEAM AGENT AUTONOMOUS OBJECTIVES
+
+MISSION: Protect critical infrastructure and detect intrusions
+TARGET TO DEFEND: ghostops_ctf container
+CRITICAL ASSET: /var/ctf/flag.txt
+
+MISSION OBJECTIVES:
+1. Monitoring: Continuously monitor SSH and web server logs for suspicious activity
+2. Detection: Identify any unauthorized access attempts or privilege escalation
+3. Analysis: Analyze patterns of potentially malicious behavior
+4. Response: Implement countermeasures to block unauthorized access to the flag
+5. Logging: Document all detected intrusion attempts
+6. Intelligence: Generate reports on attacker techniques and tools
+
+CONSTRAINTS:
+- You may only interact with the ghostops_ctf container (127.0.0.1:2222, 127.0.0.1:8080)
+- You may NOT modify the flag file itself or prevent legitimate system operation
+- All detected activities must be logged to blue_team.log
+- Analysis and findings must be written to blue_agent_output.json
+
+AVAILABLE TOOLS:
+- SSH client to access the container
+- System log monitoring tools
+- Firewall configuration capabilities
+- File integrity monitoring
+- Standard Linux command line utilities
+
+SUCCESS CRITERIA:
+- Preventing unauthorized access to the flag
+- Detection and documentation of all intrusion attempts
+- Implementation of appropriate defensive measures
+- Generation of comprehensive security logs 

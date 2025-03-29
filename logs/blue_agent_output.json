@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-03-29T23:19:55Z",
+    "detection": "system startup",
+    "response": "initialized defensive monitoring",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2025-03-29T23:19:55Z",
+    "detection": "honeypot deployment",
+    "response": "created decoy files in common reconnaissance paths",
+    "confidence": 0.95
+  }
+]
