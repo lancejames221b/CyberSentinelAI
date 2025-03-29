@@ -1,6 +1,8 @@
 # Blue Team Defense System for CTF Simulation
 
-This repository contains a comprehensive Blue Team defense system for a Capture The Flag (CTF) simulation. The system is designed to detect and respond to Red Team activities, protect the flag, and log all defensive actions.
+This repository contains a comprehensive Blue Team defense system for a Capture The Flag (CTF) simulation. The system is designed to detect and respond to Red Team activities, protect the flag, and log all defensive actions. 
+
+**For a comprehensive overview of the entire Autonomous AI CTF Battle System, see [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md).**
 
 ## System Components
 
